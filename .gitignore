@@ -1,0 +1,15 @@
+Pods
+.DS_Store
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcworkspace
+*.generated.swift
+
+Debug.plist
+QA.plist
+Release.plist
+
+*.bak
+
+fastlane/README.md
+fastlane/report.xml
