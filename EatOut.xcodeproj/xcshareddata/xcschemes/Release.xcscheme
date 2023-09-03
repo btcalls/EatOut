@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A97074292759E3D800302141"
-               BuildableName = "BaseApp.app"
-               BlueprintName = "BaseApp"
-               ReferencedContainer = "container:BaseApp.xcodeproj">
+               BuildableName = "EatOut.app"
+               BlueprintName = "EatOut"
+               ReferencedContainer = "container:EatOut.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A97074292759E3D800302141"
-            BuildableName = "BaseApp.app"
-            BlueprintName = "BaseApp"
-            ReferencedContainer = "container:BaseApp.xcodeproj">
+            BuildableName = "EatOut.app"
+            BlueprintName = "EatOut"
+            ReferencedContainer = "container:EatOut.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A97074292759E3D800302141"
-            BuildableName = "BaseApp.app"
-            BlueprintName = "BaseApp"
-            ReferencedContainer = "container:BaseApp.xcodeproj">
+            BuildableName = "EatOut.app"
+            BlueprintName = "EatOut"
+            ReferencedContainer = "container:EatOut.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

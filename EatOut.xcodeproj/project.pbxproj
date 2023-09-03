@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2912E8D1379864B0E4B0F08D /* Pods_BaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500D52534CCF8157113DF5A6 /* Pods_BaseApp.framework */; };
 		A92D56FB275DBC460032F1C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D56FA275DBC460032F1C1 /* Constants.swift */; };
 		A92D5701275DF6B00032F1C1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D5700275DF6B00032F1C1 /* Protocols.swift */; };
 		A94AA80D275EF6BB0024C01F /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AA80C275EF6BB0024C01F /* UIWindow.swift */; };
@@ -36,11 +35,12 @@
 		A9A15DD4275B412D00F01F84 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A15DD3275B412D00F01F84 /* Data.swift */; };
 		A9A15DD8275B4AD100F01F84 /* AuthCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A15DD7275B4AD100F01F84 /* AuthCodable.swift */; };
 		A9A15DDA275B4C0100F01F84 /* BaseCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A15DD9275B4C0100F01F84 /* BaseCodable.swift */; };
+		FED6D2C1959501BCA69C2636 /* Pods_EatOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AD9A3ACB3748CC1FE5C8D3 /* Pods_EatOut.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F6125B89A75A3F1C579CD7C /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
-		500D52534CCF8157113DF5A6 /* Pods_BaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B8698E550EDB8971F42BD1 /* Pods-EatOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatOut.debug.xcconfig"; path = "Target Support Files/Pods-EatOut/Pods-EatOut.debug.xcconfig"; sourceTree = "<group>"; };
 		A92D56FA275DBC460032F1C1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A92D5700275DF6B00032F1C1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		A94AA80C275EF6BB0024C01F /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		A96FF79E275A13C7000E139E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		A96FF7A0275A16AB000E139E /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		A96FF7A2275A1FE2000E139E /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
-		A970742A2759E3D800302141 /* BaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970742A2759E3D800302141 /* EatOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A970742D2759E3D800302141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97074312759E3D800302141 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A97074342759E3D800302141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +76,9 @@
 		C46E83B199A09B0B977E7D95 /* Pods-ChatApp.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.qa.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.qa.xcconfig"; sourceTree = "<group>"; };
 		CF000F1F8B1C2B5E707BD377 /* Pods-BaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseApp.debug.xcconfig"; path = "Target Support Files/Pods-BaseApp/Pods-BaseApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D45A5FB7D167A37A9D187A16 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D748027635A50420F064C95B /* Pods-EatOut.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatOut.qa.xcconfig"; path = "Target Support Files/Pods-EatOut/Pods-EatOut.qa.xcconfig"; sourceTree = "<group>"; };
+		E0B8D087C1857E8D85FE8F4B /* Pods-EatOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatOut.release.xcconfig"; path = "Target Support Files/Pods-EatOut/Pods-EatOut.release.xcconfig"; sourceTree = "<group>"; };
+		E7AD9A3ACB3748CC1FE5C8D3 /* Pods_EatOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EatOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2912E8D1379864B0E4B0F08D /* Pods_BaseApp.framework in Frameworks */,
+				FED6D2C1959501BCA69C2636 /* Pods_EatOut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,13 +128,6 @@
 				A94AA814275F26AD0024C01F /* PushNotificationsManager.swift */,
 			);
 			path = Managers;
-			sourceTree = "<group>";
-		};
-		A966676F275F4F0800B8B2B8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		A96FF78C2759EA73000E139E /* Resources */ = {
@@ -182,7 +178,7 @@
 		A97074212759E3D800302141 = {
 			isa = PBXGroup;
 			children = (
-				A970742C2759E3D800302141 /* BaseApp */,
+				A970742C2759E3D800302141 /* EatOut */,
 				A970742B2759E3D800302141 /* Products */,
 				BDE5BB0D54972CE54BA5A243 /* Pods */,
 				BBD45848CAE969D02E6F31BC /* Frameworks */,
@@ -192,12 +188,12 @@
 		A970742B2759E3D800302141 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A970742A2759E3D800302141 /* BaseApp.app */,
+				A970742A2759E3D800302141 /* EatOut.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A970742C2759E3D800302141 /* BaseApp */ = {
+		A970742C2759E3D800302141 /* EatOut */ = {
 			isa = PBXGroup;
 			children = (
 				A970743B2759E3DC00302141 /* Info.plist */,
@@ -210,9 +206,8 @@
 				A96FF78C2759EA73000E139E /* Resources */,
 				A92D56FD275DF5AA0032F1C1 /* Scenes */,
 				A96FF7922759FEE0000E139E /* Utils */,
-				A966676F275F4F0800B8B2B8 /* Views */,
 			);
-			path = BaseApp;
+			path = EatOut;
 			sourceTree = "<group>";
 		};
 		A98157A6275E37C3007383C1 /* Main */ = {
@@ -227,7 +222,7 @@
 		BBD45848CAE969D02E6F31BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				500D52534CCF8157113DF5A6 /* Pods_BaseApp.framework */,
+				E7AD9A3ACB3748CC1FE5C8D3 /* Pods_EatOut.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -241,6 +236,9 @@
 				CF000F1F8B1C2B5E707BD377 /* Pods-BaseApp.debug.xcconfig */,
 				BA0C3E64B575874B38D711D7 /* Pods-BaseApp.qa.xcconfig */,
 				AF5095D8E4DE2EA47E2D115B /* Pods-BaseApp.release.xcconfig */,
+				98B8698E550EDB8971F42BD1 /* Pods-EatOut.debug.xcconfig */,
+				D748027635A50420F064C95B /* Pods-EatOut.qa.xcconfig */,
+				E0B8D087C1857E8D85FE8F4B /* Pods-EatOut.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -248,9 +246,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A97074292759E3D800302141 /* BaseApp */ = {
+		A97074292759E3D800302141 /* EatOut */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A970743E2759E3DC00302141 /* Build configuration list for PBXNativeTarget "BaseApp" */;
+			buildConfigurationList = A970743E2759E3DC00302141 /* Build configuration list for PBXNativeTarget "EatOut" */;
 			buildPhases = (
 				FE2DAD138B5D9BD80F3DEC5A /* [CP] Check Pods Manifest.lock */,
 				A94AA80E275F091C0024C01F /* R.swift */,
@@ -263,9 +261,9 @@
 			);
 			dependencies = (
 			);
-			name = BaseApp;
+			name = EatOut;
 			productName = ChatApp;
-			productReference = A970742A2759E3D800302141 /* BaseApp.app */;
+			productReference = A970742A2759E3D800302141 /* EatOut.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +283,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A97074252759E3D800302141 /* Build configuration list for PBXProject "BaseApp" */;
+			buildConfigurationList = A97074252759E3D800302141 /* Build configuration list for PBXProject "EatOut" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,7 +296,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A97074292759E3D800302141 /* BaseApp */,
+				A97074292759E3D800302141 /* EatOut */,
 			);
 		};
 /* End PBXProject section */
@@ -324,15 +322,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BaseApp/Pods-BaseApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EatOut/Pods-EatOut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BaseApp/Pods-BaseApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EatOut/Pods-EatOut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseApp/Pods-BaseApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EatOut/Pods-EatOut-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A94AA80E275F091C0024C01F /* R.swift */ = {
@@ -370,7 +368,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BaseApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EatOut-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -496,14 +494,14 @@
 		};
 		A96FF78B2759E818000E139E /* QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA0C3E64B575874B38D711D7 /* Pods-BaseApp.qa.xcconfig */;
+			baseConfigurationReference = D748027635A50420F064C95B /* Pods-EatOut.qa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BaseApp/Info.plist;
+				INFOPLIST_FILE = "$(UD_BASE_APP_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "$(UD_APP_NAME)";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) requires Locations to be enabled for tracking current location.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) requires Locations to be enabled for tracking current location.";
@@ -525,7 +523,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UD_APP_NAME = "$(UD_BASE_APP_NAME)$(UD_APP_SUFFIX)";
 				UD_APP_SUFFIX = QA;
-				UD_BASE_APP_NAME = BaseApp;
+				UD_BASE_APP_NAME = EatOut;
 				UD_DISPLAY_APP_VERSION = "v$(MARKETING_VERSION)-QA";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -649,14 +647,14 @@
 		};
 		A970743F2759E3DC00302141 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF000F1F8B1C2B5E707BD377 /* Pods-BaseApp.debug.xcconfig */;
+			baseConfigurationReference = 98B8698E550EDB8971F42BD1 /* Pods-EatOut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BaseApp/Info.plist;
+				INFOPLIST_FILE = "$(UD_BASE_APP_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "$(UD_APP_NAME)";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) requires Locations to be enabled for tracking current location.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) requires Locations to be enabled for tracking current location.";
@@ -677,7 +675,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UD_APP_NAME = "$(UD_BASE_APP_NAME)$(UD_APP_SUFFIX)";
 				UD_APP_SUFFIX = Dev;
-				UD_BASE_APP_NAME = BaseApp;
+				UD_BASE_APP_NAME = EatOut;
 				UD_DISPLAY_APP_VERSION = "v$(MARKETING_VERSION)-dev";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -685,14 +683,14 @@
 		};
 		A97074402759E3DC00302141 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF5095D8E4DE2EA47E2D115B /* Pods-BaseApp.release.xcconfig */;
+			baseConfigurationReference = E0B8D087C1857E8D85FE8F4B /* Pods-EatOut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BaseApp/Info.plist;
+				INFOPLIST_FILE = "$(UD_BASE_APP_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "$(UD_APP_NAME)";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) requires Locations to be enabled for tracking current location.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) requires Locations to be enabled for tracking current location.";
@@ -713,7 +711,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UD_APP_NAME = "$(UD_BASE_APP_NAME)$(UD_APP_SUFFIX)";
 				UD_APP_SUFFIX = "";
-				UD_BASE_APP_NAME = BaseApp;
+				UD_BASE_APP_NAME = EatOut;
 				UD_DISPLAY_APP_VERSION = "v$(MARKETING_VERSION)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -722,7 +720,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A97074252759E3D800302141 /* Build configuration list for PBXProject "BaseApp" */ = {
+		A97074252759E3D800302141 /* Build configuration list for PBXProject "EatOut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A970743C2759E3DC00302141 /* Debug */,
@@ -732,7 +730,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A970743E2759E3DC00302141 /* Build configuration list for PBXNativeTarget "BaseApp" */ = {
+		A970743E2759E3DC00302141 /* Build configuration list for PBXNativeTarget "EatOut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A970743F2759E3DC00302141 /* Debug */,

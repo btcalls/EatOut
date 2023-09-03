@@ -25,14 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        PushNotificationsManager.shared.configure()
 //        LocationManager.shared.configure()
 
-        // Root view controller
-        var vc: UIViewController = R.storyboard.login.instantiateInitialViewController()!
-
-        if APIClient.shared.isAuthenticated {
-            vc = R.storyboard.main.instantiateInitialViewController()!
-        }
-
-        window?.rootViewController = vc
+        // TODO: Change to true if Login module is available
+        window?.rootViewController = getRootWindow(false)
 
         window?.makeKeyAndVisible()
 
@@ -44,6 +38,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
     ) {
         PushNotificationsManager.shared.register(token: deviceToken)
+    }
+    
+    private func getRootWindow(_ needsAuth: Bool) -> UIViewController {
+        let vc: UIViewController = R.storyboard.main.instantiateInitialViewController()!
+        
+        guard needsAuth else {
+            return vc
+        }
+        
+        if APIClient.shared.isAuthenticated {
+            return vc
+        }
+        
+        return R.storyboard.login.instantiateInitialViewController()!
     }
 
 }
